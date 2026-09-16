@@ -1,0 +1,2160 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <title>Bayshore Home Healthcare | Compassionate Care at Home</title>
+
+  <meta
+    name="description"
+    content="Bayshore Home Healthcare provides compassionate homecare and medical services for seniors and homebound patients in New York."
+  />
+
+  <link
+    rel="icon"
+    type="image/png"
+    href="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSFNbHD0U0Gr87t2rBo4rok0qi5L6Kb5RXAbMFyRTcOIQ&s=10"
+  />
+
+  <!-- Google Font -->
+  <link
+    href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap"
+    rel="stylesheet"
+  />
+
+  <!-- Tailwind CSS -->
+  <script src="https://cdn.tailwindcss.com"></script>
+
+  <style>
+    html {
+      scroll-behavior: smooth;
+      scroll-padding-top: 80px;
+    }
+
+    body {
+      font-family: "Poppins", sans-serif;
+      overflow-x: hidden;
+    }
+
+    /* =========================================================
+       HERO
+    ========================================================== */
+
+    .hero-section {
+      background-image:
+        url("https://images.squarespace-cdn.com/content/v1/6655fbb4d9e12c0208643fee/dc199c03-eb1d-49c3-972a-9033409a5e5c/banner.png?format=2500w");
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-position: center center;
+    }
+
+    .hero-overlay {
+      background:
+        linear-gradient(
+          90deg,
+          rgba(10, 39, 67, 0.94) 0%,
+          rgba(17, 54, 88, 0.82) 38%,
+          rgba(24, 65, 101, 0.55) 68%,
+          rgba(24, 65, 101, 0.28) 100%
+        );
+    }
+
+    /* Tablet */
+    @media (min-width: 768px) and (max-width: 1023px) {
+      .hero-section {
+        background-position: 58% center;
+      }
+
+      .hero-overlay {
+        background:
+          linear-gradient(
+            90deg,
+            rgba(10, 39, 67, 0.94) 0%,
+            rgba(17, 54, 88, 0.84) 48%,
+            rgba(24, 65, 101, 0.45) 100%
+          );
+      }
+    }
+
+    /* Mobile */
+    @media (max-width: 767px) {
+      .hero-section {
+        background-position: 67% center;
+        min-height: 650px;
+      }
+
+      .hero-overlay {
+        background:
+          linear-gradient(
+            180deg,
+            rgba(8, 35, 61, 0.90) 0%,
+            rgba(12, 47, 78, 0.78) 42%,
+            rgba(16, 55, 88, 0.68) 72%,
+            rgba(16, 55, 88, 0.76) 100%
+          );
+      }
+    }
+
+    /* Small Mobile */
+    @media (max-width: 380px) {
+      .hero-section {
+        min-height: 680px;
+        background-position: 69% center;
+      }
+    }
+
+    /* Very small phones */
+    @media (max-width: 340px) {
+      .hero-section {
+        min-height: 700px;
+        background-position: 70% center;
+      }
+    }
+  </style>
+</head>
+
+
+<body class="bg-white text-slate-700">
+
+  <!-- =========================================================
+       HEADER
+  ========================================================== -->
+
+  <header class="fixed top-0 left-0 right-0 z-50 bg-white shadow-md">
+
+    <div class="max-w-[1440px] mx-auto px-4 sm:px-6 lg:px-8">
+
+      <div class="min-h-[76px] sm:min-h-[80px] flex items-center justify-between">
+
+        <!-- Logo -->
+        <a
+          href="#"
+          class="flex items-center shrink-0"
+          aria-label="Bayshore Home Healthcare"
+        >
+          <img
+            src="https://images.squarespace-cdn.com/content/v1/6655fbb4d9e12c0208643fee/677f899b-5e9f-42af-92a9-a3a37e9edef4/Bayshore+Logo.png?format=1500w"
+            alt="Bayshore Home Healthcare"
+            class="w-auto h-11 sm:h-13 lg:h-16 object-contain"
+          />
+        </a>
+
+
+        <!-- Desktop Navigation -->
+        <div class="hidden md:flex items-center gap-5 lg:gap-7">
+
+          <nav
+            class="flex items-center gap-4 lg:gap-7
+            text-sm lg:text-[15px]
+            font-medium text-slate-600"
+          >
+
+            <a
+              href="#about"
+              class="relative py-2 transition hover:text-[#34659b]
+              after:absolute after:left-0 after:bottom-0
+              after:h-[2px] after:w-0
+              after:bg-[#34659b]
+              after:transition-all
+              hover:after:w-full"
+            >
+              About
+            </a>
+
+            <a
+              href="#services"
+              class="relative py-2 transition hover:text-[#34659b]
+              after:absolute after:left-0 after:bottom-0
+              after:h-[2px] after:w-0
+              after:bg-[#34659b]
+              after:transition-all
+              hover:after:w-full"
+            >
+              Services
+            </a>
+
+            <a
+              href="#location"
+              class="relative py-2 transition hover:text-[#34659b]
+              after:absolute after:left-0 after:bottom-0
+              after:h-[2px] after:w-0
+              after:bg-[#34659b]
+              after:transition-all
+              hover:after:w-full"
+            >
+              Location
+            </a>
+
+            <a
+              href="#team"
+              class="relative py-2 transition hover:text-[#34659b]
+              after:absolute after:left-0 after:bottom-0
+              after:h-[2px] after:w-0
+              after:bg-[#34659b]
+              after:transition-all
+              hover:after:w-full"
+            >
+              Join Our Team
+            </a>
+
+            <a
+              href="#faq"
+              class="relative py-2 transition hover:text-[#34659b]
+              after:absolute after:left-0 after:bottom-0
+              after:h-[2px] after:w-0
+              after:bg-[#34659b]
+              after:transition-all
+              hover:after:w-full"
+            >
+              FAQ
+            </a>
+
+          </nav>
+
+
+          <a
+            href="#contact"
+            class="inline-flex items-center justify-center
+            bg-[#34659b]
+            hover:bg-[#28537f]
+            text-white font-semibold
+            px-5 py-2.5
+            rounded-lg
+            transition
+            shadow-sm"
+          >
+            Contact Us
+          </a>
+
+        </div>
+
+
+        <!-- Mobile Menu Button -->
+        <button
+          id="menu-btn"
+          type="button"
+          aria-label="Open menu"
+          aria-expanded="false"
+          class="md:hidden flex items-center justify-center
+          w-10 h-10 sm:w-11 sm:h-11
+          rounded-lg
+          border border-slate-200
+          text-slate-700
+          hover:bg-slate-50
+          transition"
+        >
+
+          <svg
+            id="menu-open-icon"
+            xmlns="http://www.w3.org/2000/svg"
+            class="w-5 h-5 sm:w-6 sm:h-6"
+            fill="none"
+            viewBox="0 0 24 24"
+            stroke="currentColor"
+          >
+            <path
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              stroke-width="2"
+              d="M4 6h16M4 12h16M4 18h16"
+            />
+          </svg>
+
+
+          <svg
+            id="menu-close-icon"
+            xmlns="http://www.w3.org/2000/svg"
+            class="hidden w-5 h-5 sm:w-6 sm:h-6"
+            fill="none"
+            viewBox="0 0 24 24"
+            stroke="currentColor"
+          >
+            <path
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              stroke-width="2"
+              d="M6 18L18 6M6 6l12 12"
+            />
+          </svg>
+
+        </button>
+
+      </div>
+
+
+      <!-- Mobile Menu -->
+      <div
+        id="menu"
+        class="hidden md:hidden
+        border-t border-slate-100
+        py-3"
+      >
+
+        <nav class="flex flex-col">
+
+          <a
+            href="#about"
+            class="px-3 py-3
+            rounded-lg
+            text-slate-700
+            hover:bg-slate-50
+            hover:text-[#34659b]
+            transition"
+          >
+            About
+          </a>
+
+          <a
+            href="#services"
+            class="px-3 py-3
+            rounded-lg
+            text-slate-700
+            hover:bg-slate-50
+            hover:text-[#34659b]
+            transition"
+          >
+            Services
+          </a>
+
+          <a
+            href="#location"
+            class="px-3 py-3
+            rounded-lg
+            text-slate-700
+            hover:bg-slate-50
+            hover:text-[#34659b]
+            transition"
+          >
+            Location
+          </a>
+
+          <a
+            href="#team"
+            class="px-3 py-3
+            rounded-lg
+            text-slate-700
+            hover:bg-slate-50
+            hover:text-[#34659b]
+            transition"
+          >
+            Join Our Team
+          </a>
+
+          <a
+            href="#faq"
+            class="px-3 py-3
+            rounded-lg
+            text-slate-700
+            hover:bg-slate-50
+            hover:text-[#34659b]
+            transition"
+          >
+            FAQ
+          </a>
+
+          <a
+            href="#contact"
+            class="mt-2
+            text-center
+            bg-[#34659b]
+            hover:bg-[#28537f]
+            text-white
+            font-semibold
+            px-5 py-3
+            rounded-lg
+            transition"
+          >
+            Contact Us
+          </a>
+
+        </nav>
+
+      </div>
+
+    </div>
+
+  </header>
+
+
+  <!-- =========================================================
+       MAIN
+  ========================================================== -->
+
+  <main class="pt-[76px] sm:pt-[80px]">
+
+
+    <!-- =========================================================
+         HERO SECTION
+    ========================================================== -->
+
+    <section
+      class="hero-section
+      relative
+      min-h-[650px]
+      sm:min-h-[600px]
+      md:min-h-[620px]
+      lg:min-h-[660px]
+      flex
+      items-center
+      overflow-hidden"
+    >
+
+      <!-- Overlay -->
+      <div
+        class="hero-overlay
+        absolute
+        inset-0
+        z-0"
+      ></div>
+
+
+      <!-- Soft bottom fade -->
+      <div
+        class="absolute
+        inset-x-0
+        bottom-0
+        h-24
+        bg-gradient-to-t
+        from-[#0a2743]/25
+        to-transparent
+        pointer-events-none"
+      ></div>
+
+
+      <!-- Hero Container -->
+      <div
+        class="relative
+        z-10
+        w-full
+        max-w-7xl
+        mx-auto
+        px-5
+        sm:px-8
+        lg:px-10
+        py-14
+        sm:py-16
+        md:py-20
+        lg:py-24"
+      >
+
+        <!-- Hero Content -->
+        <div
+          class="w-full
+          max-w-[820px]
+          mx-auto
+          md:mx-0
+          text-center
+          md:text-left"
+        >
+
+          <!-- Eyebrow -->
+          <div
+            class="flex
+            items-center
+            justify-center
+            md:justify-start
+            gap-3
+            mb-5
+            sm:mb-6"
+          >
+
+            <span
+              class="hidden sm:block
+              w-8
+              h-[2px]
+              bg-[#edd286]"
+            ></span>
+
+            <p
+              class="text-[#edd286]
+              text-[11px]
+              sm:text-sm
+              md:text-[15px]
+              font-semibold
+              tracking-[0.16em]
+              sm:tracking-[0.20em]
+              uppercase"
+            >
+              Compassionate Home Healthcare
+            </p>
+
+          </div>
+
+
+          <!-- Main Heading -->
+          <h1
+            class="font-bold
+            text-[#edd286]
+            text-[34px]
+            min-[375px]:text-[38px]
+            sm:text-5xl
+            md:text-[56px]
+            lg:text-[68px]
+            leading-[1.08]
+            tracking-tight"
+          >
+            Let Your Loved Ones
+          </h1>
+
+
+          <!-- Second Heading -->
+          <h2
+            class="mt-2
+            sm:mt-3
+            font-bold
+            text-white
+            text-[32px]
+            min-[375px]:text-[36px]
+            sm:text-5xl
+            md:text-[55px]
+            lg:text-[62px]
+            leading-[1.08]
+            tracking-tight"
+          >
+            Stay Healthy at Home!
+          </h2>
+
+
+          <!-- Divider -->
+          <div
+            class="flex
+            items-center
+            justify-center
+            md:justify-start
+            gap-2
+            mt-6
+            sm:mt-7"
+          >
+
+            <div
+              class="h-[3px]
+              w-12
+              sm:w-16
+              rounded-full
+              bg-[#edd286]"
+            ></div>
+
+            <div
+              class="h-[2px]
+              w-7
+              sm:w-10
+              rounded-full
+              bg-white/80"
+            ></div>
+
+          </div>
+
+
+          <!-- Description -->
+          <p
+            class="max-w-[650px]
+            mx-auto
+            md:mx-0
+            mt-5
+            sm:mt-6
+            text-[15px]
+            sm:text-[17px]
+            md:text-lg
+            lg:text-xl
+            leading-[1.7]
+            text-white/95"
+          >
+            We provide homecare and medical services for seniors
+            and homebound patients in New York.
+          </p>
+
+
+          <!-- Buttons -->
+          <div
+            class="flex
+            flex-col
+            min-[420px]:flex-row
+            items-stretch
+            min-[420px]:items-center
+            justify-center
+            md:justify-start
+            gap-3
+            sm:gap-4
+            mt-7
+            sm:mt-8
+            w-full
+            min-[420px]:w-auto"
+          >
+
+            <!-- Get Care -->
+            <a
+              href="#contact"
+              class="w-full
+              min-[420px]:w-auto
+              inline-flex
+              items-center
+              justify-center
+              bg-[#f2eee7]
+              hover:bg-white
+              text-[#263a4c]
+              font-semibold
+              text-sm
+              sm:text-base
+              px-7
+              sm:px-8
+              py-3.5
+              sm:py-3.5
+              rounded-lg
+              shadow-lg
+              hover:shadow-xl
+              transition
+              duration-200"
+            >
+              Get Care
+            </a>
+
+
+            <!-- Give Care -->
+            <a
+              href="#team"
+              class="w-full
+              min-[420px]:w-auto
+              inline-flex
+              items-center
+              justify-center
+              bg-white/10
+              hover:bg-white
+              border
+              border-white/80
+              text-white
+              hover:text-[#263a4c]
+              font-semibold
+              text-sm
+              sm:text-base
+              px-7
+              sm:px-8
+              py-3.5
+              sm:py-3.5
+              rounded-lg
+              backdrop-blur-sm
+              transition
+              duration-200"
+            >
+              Give Care
+            </a>
+
+          </div>
+
+
+          <!-- Small Trust Text -->
+          <div
+            class="mt-8
+            sm:mt-9
+            flex
+            flex-wrap
+            items-center
+            justify-center
+            md:justify-start
+            gap-x-5
+            gap-y-2
+            text-xs
+            sm:text-sm
+            text-white/85"
+          >
+
+            <span class="flex items-center gap-2">
+              <span
+                class="w-1.5 h-1.5
+                rounded-full
+                bg-[#edd286]"
+              ></span>
+              Personalized Care
+            </span>
+
+            <span class="flex items-center gap-2">
+              <span
+                class="w-1.5 h-1.5
+                rounded-full
+                bg-[#edd286]"
+              ></span>
+              Trusted Support
+            </span>
+
+            <span class="flex items-center gap-2">
+              <span
+                class="w-1.5 h-1.5
+                rounded-full
+                bg-[#edd286]"
+              ></span>
+              24/7 Availability
+            </span>
+
+          </div>
+
+        </div>
+
+      </div>
+
+    </section>
+
+
+    <!-- =========================================================
+         SERVICES
+    ========================================================== -->
+
+    <section
+      id="services"
+      class="py-14 sm:py-16 lg:py-20 bg-white"
+    >
+
+      <div
+        class="max-w-7xl mx-auto
+        px-5 sm:px-8 lg:px-10"
+      >
+
+        <div
+          class="text-center
+          max-w-4xl
+          mx-auto
+          mb-10
+          lg:mb-14"
+        >
+
+          <p
+            class="text-[#34659b]
+            text-3xl
+            sm:text-4xl
+            md:text-5xl
+            lg:text-6xl
+            font-bold
+            leading-tight"
+          >
+            Personalized Homecare Programs
+          </p>
+
+          <h2
+            class="mt-2
+            text-xl
+            sm:text-2xl
+            md:text-3xl
+            lg:text-4xl
+            text-[#73a8a4]"
+          >
+            For Geriatric and Pediatric Patients
+          </h2>
+
+        </div>
+
+
+        <div
+          class="grid
+          grid-cols-1
+          sm:grid-cols-2
+          lg:grid-cols-3
+          gap-6"
+        >
+
+          <!-- Card 1 -->
+          <article class="group">
+
+            <div
+              class="relative
+              overflow-hidden
+              rounded-2xl"
+            >
+
+              <img
+                src="https://images.squarespace-cdn.com/content/v1/6655fbb4d9e12c0208643fee/16d31d32-5f56-4a6e-8e08-bbadc4a0ff62/realistic-scene-with-health-worker-taking-care-elderly-patient+%281%29.jpg?format=2500w/photo-1612550834923-8bdb9b8bb6f8"
+                alt="Full Time Caregivers"
+                class="w-full
+                h-72
+                sm:h-64
+                lg:h-72
+                object-cover
+                transition
+                duration-500
+                group-hover:scale-105"
+              />
+
+              <div
+                class="absolute
+                bottom-0
+                left-0
+                right-0
+                bg-[#34659b]/90
+                backdrop-blur-sm
+                px-4 py-4
+                text-center"
+              >
+
+                <h3
+                  class="text-white
+                  font-semibold
+                  text-lg"
+                >
+                  Full Time Caregivers
+                </h3>
+
+              </div>
+
+            </div>
+
+
+            <p
+              class="text-slate-600
+              text-base
+              sm:text-lg
+              leading-relaxed
+              text-center
+              mt-4
+              px-2"
+            >
+              Ensure your loved one is looked after by one aid 24/7 –
+              and 365 Days a Year.
+            </p>
+
+          </article>
+
+
+          <!-- Card 2 -->
+          <article class="group">
+
+            <div
+              class="relative
+              overflow-hidden
+              rounded-2xl"
+            >
+
+              <img
+                src="https://images.squarespace-cdn.com/content/v1/6655fbb4d9e12c0208643fee/87a967bc-e397-4f22-ac98-9c1daaa2fa21/iStock-1918836947.jpg?format=2500w/photo-1603570419878-753b82bfa3e2"
+                alt="Personal Care and Companionship"
+                class="w-full
+                h-72
+                sm:h-64
+                lg:h-72
+                object-cover
+                transition
+                duration-500
+                group-hover:scale-105"
+              />
+
+              <div
+                class="absolute
+                bottom-0
+                left-0
+                right-0
+                bg-[#34659b]/90
+                backdrop-blur-sm
+                px-4 py-4
+                text-center"
+              >
+
+                <h3
+                  class="text-white
+                  font-semibold
+                  text-lg"
+                >
+                  Personal Care &amp; Companionship
+                </h3>
+
+              </div>
+
+            </div>
+
+
+            <p
+              class="text-slate-600
+              text-base
+              sm:text-lg
+              leading-relaxed
+              text-center
+              mt-4
+              px-2"
+            >
+              Gentle, empathetic companionship intertwined with
+              attentive personal care services.
+            </p>
+
+          </article>
+
+
+          <!-- Card 3 -->
+          <article
+            class="group
+            sm:col-span-2
+            lg:col-span-1"
+          >
+
+            <div
+              class="relative
+              overflow-hidden
+              rounded-2xl"
+            >
+
+              <img
+                src="https://images.squarespace-cdn.com/content/v1/6655fbb4d9e12c0208643fee/400079e9-96f8-45fe-b0ae-af33c8661297/iStock-1739325597.jpg?format=2500w/photo-1580281657521-9a9e3e3b7a1a"
+                alt="Nursing Assessment"
+                class="w-full
+                h-72
+                sm:h-64
+                lg:h-72
+                object-cover
+                transition
+                duration-500
+                group-hover:scale-105"
+              />
+
+              <div
+                class="absolute
+                bottom-0
+                left-0
+                right-0
+                bg-[#34659b]/90
+                backdrop-blur-sm
+                px-4 py-4
+                text-center"
+              >
+
+                <h3
+                  class="text-white
+                  font-semibold
+                  text-lg"
+                >
+                  Nursing Assessment
+                </h3>
+
+              </div>
+
+            </div>
+
+
+            <p
+              class="text-slate-600
+              text-base
+              sm:text-lg
+              leading-relaxed
+              text-center
+              mt-4
+              px-2"
+            >
+              Our nurses' assessments help pinpoint the exact
+              home care services clients need.
+            </p>
+
+          </article>
+
+        </div>
+
+      </div>
+
+    </section>
+
+
+    <!-- =========================================================
+         FIND SUPPORT
+    ========================================================== -->
+
+    <section
+      class="bg-[#eae6dd]
+      py-12
+      sm:py-16
+      lg:py-20"
+    >
+
+      <div
+        class="max-w-7xl
+        mx-auto
+        px-5
+        sm:px-8
+        lg:px-10
+        grid
+        grid-cols-1
+        lg:grid-cols-2
+        gap-10
+        lg:gap-14
+        items-center"
+      >
+
+        <div>
+
+          <p
+            class="text-[#34659b]
+            text-4xl
+            sm:text-5xl
+            lg:text-6xl
+            font-bold"
+          >
+            Find the Right
+          </p>
+
+          <h2
+            class="text-4xl
+            sm:text-5xl
+            lg:text-6xl
+            text-slate-900
+            font-semibold
+            mt-1"
+          >
+            Support Here:
+          </h2>
+
+          <p
+            class="text-slate-600
+            text-base
+            sm:text-lg
+            leading-relaxed
+            mt-6
+            max-w-xl"
+          >
+            We’ll match you with a caregiver that matches your
+            needs both in terms of care and culture. Find a warm,
+            caring aid who’s respectful, competent, and well
+            trained by our team.
+          </p>
+
+        </div>
+
+
+        <div
+          class="grid
+          grid-cols-1
+          sm:grid-cols-2
+          gap-5"
+        >
+
+          <div
+            class="bg-[#34659b]
+            text-white
+            rounded-2xl
+            p-6
+            sm:p-7
+            min-h-[280px]
+            flex
+            flex-col
+            justify-between
+            shadow-sm"
+          >
+
+            <h3
+              class="text-2xl
+              sm:text-3xl
+              font-bold
+              leading-tight"
+            >
+              Hire a trusted caregiver from Bayshore
+            </h3>
+
+            <button
+              type="button"
+              class="self-start
+              bg-[#eae6dd]
+              hover:bg-white
+              text-slate-900
+              font-semibold
+              px-5
+              py-3
+              rounded-lg
+              transition"
+            >
+              View Services
+            </button>
+
+          </div>
+
+
+          <div
+            class="bg-[#34659b]
+            text-white
+            rounded-2xl
+            p-6
+            sm:p-7
+            min-h-[280px]
+            flex
+            flex-col
+            justify-between
+            shadow-sm"
+          >
+
+            <h3
+              class="text-2xl
+              sm:text-3xl
+              font-bold
+              leading-tight"
+            >
+              Choose a relative as an aid and get them paid
+            </h3>
+
+            <button
+              type="button"
+              class="self-start
+              bg-[#eae6dd]
+              hover:bg-white
+              text-slate-900
+              font-semibold
+              px-5
+              py-3
+              rounded-lg
+              transition"
+            >
+              View CDPAP
+            </button>
+
+          </div>
+
+        </div>
+
+      </div>
+
+    </section>
+
+
+    <!-- =========================================================
+         PROCESS
+    ========================================================== -->
+
+    <section
+      class="py-14
+      sm:py-16
+      lg:py-20
+      bg-white"
+    >
+
+      <div
+        class="max-w-7xl
+        mx-auto
+        px-5
+        sm:px-8
+        lg:px-10
+        grid
+        grid-cols-1
+        lg:grid-cols-2
+        gap-12
+        lg:gap-16
+        items-center"
+      >
+
+        <!-- Image -->
+        <div class="flex justify-center">
+
+          <div
+            class="relative
+            w-full
+            max-w-md"
+          >
+
+            <div
+              class="absolute
+              -bottom-4
+              -left-4
+              w-24
+              h-24
+              sm:w-32
+              sm:h-32
+              bg-[#34659b]
+              rounded-2xl"
+            ></div>
+
+            <div
+              class="absolute
+              -top-4
+              -right-4
+              w-24
+              h-24
+              sm:w-32
+              sm:h-32
+              bg-[#34659b]
+              rounded-2xl"
+            ></div>
+
+            <img
+              src="https://images.squarespace-cdn.com/content/v1/6655fbb4d9e12c0208643fee/56fb8d7a-e5df-44bc-bf99-73d93f177e79/realistic-scene-with-health-worker-taking-care-elderly-patient.jpg"
+              alt="Elderly woman with caregiver"
+              class="relative
+              z-10
+              w-full
+              h-[500px]
+              sm:h-[600px]
+              lg:h-[650px]
+              object-cover
+              rounded-2xl
+              shadow-xl"
+            />
+
+          </div>
+
+        </div>
+
+
+        <!-- Process Content -->
+        <div>
+
+          <h2
+            class="text-3xl
+            sm:text-4xl
+            lg:text-5xl
+            font-bold
+            text-[#34659b]"
+          >
+            Let’s Get You Started
+          </h2>
+
+          <h3
+            class="text-xl
+            sm:text-2xl
+            lg:text-3xl
+            text-slate-700
+            mt-2
+            mb-10"
+          >
+            – How the Process Works
+          </h3>
+
+
+          <!-- Step 1 -->
+          <div class="flex gap-4 sm:gap-5 mb-8">
+
+            <div
+              class="shrink-0
+              w-14
+              h-14
+              sm:w-16
+              sm:h-16
+              bg-[#34659b]
+              text-[#edd286]
+              rounded-full
+              flex
+              items-center
+              justify-center"
+            >
+
+              <span
+                class="text-xl
+                sm:text-2xl
+                font-bold"
+              >
+                01
+              </span>
+
+            </div>
+
+
+            <div>
+
+              <h4
+                class="text-xl
+                sm:text-2xl
+                font-semibold
+                text-slate-800
+                mb-2"
+              >
+                Get Approved for Assistance
+              </h4>
+
+              <p class="text-slate-600 leading-relaxed">
+                Don’t get lost in all the paperwork. We help guide
+                you through Medicaid or insurance applications to
+                get your loved ones the hours and specific care
+                they require.
+              </p>
+
+            </div>
+
+          </div>
+
+
+          <!-- Step 2 -->
+          <div class="flex gap-4 sm:gap-5 mb-8">
+
+            <div
+              class="shrink-0
+              w-14
+              h-14
+              sm:w-16
+              sm:h-16
+              bg-[#34659b]
+              text-[#edd286]
+              rounded-full
+              flex
+              items-center
+              justify-center"
+            >
+
+              <span
+                class="text-xl
+                sm:text-2xl
+                font-bold"
+              >
+                02
+              </span>
+
+            </div>
+
+
+            <div>
+
+              <h4
+                class="text-xl
+                sm:text-2xl
+                font-semibold
+                text-slate-800
+                mb-2"
+              >
+                Care that Feels like Family
+              </h4>
+
+              <p class="text-slate-600 leading-relaxed">
+                We match you with a professional caregiver such as
+                nurse, aide, or therapist to provide short-term or
+                long-term care in the home, depending on a person's
+                needs.
+              </p>
+
+            </div>
+
+          </div>
+
+
+          <!-- Step 3 -->
+          <div class="flex gap-4 sm:gap-5">
+
+            <div
+              class="shrink-0
+              w-14
+              h-14
+              sm:w-16
+              sm:h-16
+              bg-[#34659b]
+              text-[#edd286]
+              rounded-full
+              flex
+              items-center
+              justify-center"
+            >
+
+              <span
+                class="text-xl
+                sm:text-2xl
+                font-bold"
+              >
+                03
+              </span>
+
+            </div>
+
+
+            <div>
+
+              <h4
+                class="text-xl
+                sm:text-2xl
+                font-semibold
+                text-slate-800
+                mb-2"
+              >
+                On-Call Coordinators
+              </h4>
+
+              <p class="text-slate-600 leading-relaxed">
+                We understand that life gets busy. That’s why our
+                personal coordinators are here to ensure schedules
+                run smoothly. They’re available anytime you have
+                questions.
+              </p>
+
+            </div>
+
+          </div>
+
+        </div>
+
+      </div>
+
+    </section>
+
+
+    <!-- =========================================================
+         INSURANCE
+    ========================================================== -->
+
+    <section
+      id="location"
+      class="bg-[#e1dfd5]
+      py-14
+      sm:py-16
+      lg:py-20"
+    >
+
+      <div
+        class="max-w-7xl
+        mx-auto
+        px-5
+        sm:px-8
+        lg:px-10
+        grid
+        grid-cols-1
+        lg:grid-cols-3
+        gap-10
+        lg:gap-14
+        items-center"
+      >
+
+        <div class="lg:col-span-2">
+
+          <h2
+            class="text-4xl
+            sm:text-5xl
+            lg:text-6xl
+            font-bold
+            text-[#34659b]"
+          >
+            We Accept
+          </h2>
+
+          <h3
+            class="text-2xl
+            sm:text-3xl
+            text-slate-600
+            mt-2
+            mb-8"
+          >
+            Insurance &amp; Medicaid
+          </h3>
+
+
+          <div
+            class="grid
+            grid-cols-1
+            sm:grid-cols-2
+            lg:grid-cols-3
+            gap-x-8
+            gap-y-5
+            text-slate-700"
+          >
+
+            <div class="flex items-start gap-3">
+              <span class="text-[#34659b] text-xl font-bold">✓</span>
+              <span>Aetna</span>
+            </div>
+
+            <div class="flex items-start gap-3">
+              <span class="text-[#34659b] text-xl font-bold">✓</span>
+              <span>Senior Whole Health</span>
+            </div>
+
+            <div class="flex items-start gap-3">
+              <span class="text-[#34659b] text-xl font-bold">✓</span>
+              <span>Hamaspik</span>
+            </div>
+
+            <div class="flex items-start gap-3">
+              <span class="text-[#34659b] text-xl font-bold">✓</span>
+              <span>VNSNY</span>
+            </div>
+
+            <div class="flex items-start gap-3">
+              <span class="text-[#34659b] text-xl font-bold">✓</span>
+              <span>Medicaid</span>
+            </div>
+
+            <div class="flex items-start gap-3">
+              <span class="text-[#34659b] text-xl font-bold">✓</span>
+              <span>Brookhaven Care</span>
+            </div>
+
+            <div class="flex items-start gap-3">
+              <span class="text-[#34659b] text-xl font-bold">✓</span>
+              <span>Elderplan – Home First</span>
+            </div>
+
+            <div class="flex items-start gap-3">
+              <span class="text-[#34659b] text-xl font-bold">✓</span>
+              <span>Centers Plan</span>
+            </div>
+
+            <div class="flex items-start gap-3">
+              <span class="text-[#34659b] text-xl font-bold">✓</span>
+              <span>Hospice</span>
+            </div>
+
+            <div class="flex items-start gap-3">
+              <span class="text-[#34659b] text-xl font-bold">✓</span>
+              <span>Department of Social Services</span>
+            </div>
+
+            <div class="flex items-start gap-3">
+              <span class="text-[#34659b] text-xl font-bold">✓</span>
+              <span>Long Island Community Care</span>
+            </div>
+
+            <div class="flex items-start gap-3">
+              <span class="text-[#34659b] text-xl font-bold">✓</span>
+              <span>Veterans Affairs</span>
+            </div>
+
+            <div class="flex items-start gap-3">
+              <span class="text-[#34659b] text-xl font-bold">✓</span>
+              <span>AMERICARE - CHHA</span>
+            </div>
+
+            <div class="flex items-start gap-3">
+              <span class="text-[#34659b] text-xl font-bold">✓</span>
+              <span>Revival - CHHA</span>
+            </div>
+
+            <div class="flex items-start gap-3">
+              <span class="text-[#34659b] text-xl font-bold">✓</span>
+              <span>Private Patients</span>
+            </div>
+
+          </div>
+
+        </div>
+
+
+        <div
+          class="flex
+          justify-center
+          lg:justify-end"
+        >
+
+          <img
+            src="https://images.squarespace-cdn.com/content/v1/6655fbb4d9e12c0208643fee/98abc7f2-4ce2-4adc-a8ad-2dd54e0cac29/card.png?format=750w"
+            alt="Medicaid Card"
+            class="w-56
+            sm:w-64
+            lg:w-full
+            max-w-xs
+            rounded-xl
+            shadow-lg
+            object-contain"
+          />
+
+        </div>
+
+      </div>
+
+    </section>
+
+
+    <!-- =========================================================
+         ABOUT
+    ========================================================== -->
+
+    <section
+      id="about"
+      class="py-14
+      sm:py-16
+      lg:py-20
+      bg-white"
+    >
+
+      <div
+        class="max-w-7xl
+        mx-auto
+        px-5
+        sm:px-8
+        lg:px-10
+        grid
+        grid-cols-1
+        lg:grid-cols-2
+        gap-10
+        lg:gap-16
+        items-center"
+      >
+
+        <div>
+
+          <h2
+            class="text-4xl
+            sm:text-5xl
+            font-bold
+            text-[#34659b]"
+          >
+            About Bayshore
+          </h2>
+
+          <h3
+            class="text-xl
+            sm:text-2xl
+            text-slate-700
+            mt-2"
+          >
+            Homecare Services For New York
+          </h3>
+
+
+          <p
+            class="text-slate-600
+            leading-relaxed
+            mt-6
+            text-justify"
+          >
+            Healing from Surgery, recovering from illness, or dealing
+            with the inevitable aging of a loved one can test any
+            family. But major life challenges shouldn’t change how
+            you and they live. We help your loved ones live happier,
+            healthier lives in their long-term homes. From short-term,
+            in-home care to round-the-clock nursing services, their
+            health, dignity, and happiness are always at the forefront
+            of our decisions.
+          </p>
+
+
+          <p
+            class="text-slate-600
+            leading-relaxed
+            mt-5
+            text-justify"
+          >
+            As an owner-run, New York State Department of Health
+            Licensed Home Care Services Agency (LHCSA), we've been
+            proudly serving the Long Island and Queens community since
+            2015. Here at Bayshore, we blend advanced clinical expertise
+            with a compassionate approach, fostering a supportive
+            atmosphere for our staff while ensuring our clients can
+            easily connect with us whenever they need assistance.
+          </p>
+
+        </div>
+
+
+        <div
+          class="grid
+          grid-cols-2
+          gap-3
+          sm:gap-5"
+        >
+
+          <img
+            src="https://images.squarespace-cdn.com/content/v1/6655fbb4d9e12c0208643fee/7e1ca592-ffd8-46ff-a05e-e2169bd694d3/iStock-465050074.jpg?format=500w"
+            alt="Happy elderly couple using tablet"
+            class="w-full
+            h-64
+            sm:h-80
+            lg:h-[390px]
+            object-cover
+            rounded-2xl
+            shadow-md"
+          />
+
+
+          <img
+            src="https://images.squarespace-cdn.com/content/v1/6655fbb4d9e12c0208643fee/f75582a5-17af-4213-9500-79b8ab2bcd6b/pexels-kampus-7551644.jpg?format=500w"
+            alt="Caregiver with elderly person"
+            class="w-full
+            h-64
+            sm:h-80
+            lg:h-[390px]
+            object-cover
+            rounded-2xl
+            shadow-md
+            mt-8
+            sm:mt-12"
+          />
+
+        </div>
+
+      </div>
+
+    </section>
+
+
+    <!-- =========================================================
+         CONTACT
+    ========================================================== -->
+
+    <section
+      id="contact"
+      class="bg-[#34659b]
+      py-14
+      sm:py-16
+      lg:py-20"
+    >
+
+      <div
+        class="max-w-4xl
+        mx-auto
+        px-5
+        sm:px-8"
+      >
+
+        <div
+          class="text-center
+          mb-10"
+        >
+
+          <h2
+            class="text-4xl
+            sm:text-5xl
+            lg:text-6xl
+            font-bold
+            text-[#edd286]"
+          >
+            Let’s Connect
+          </h2>
+
+          <p
+            class="text-xl
+            sm:text-2xl
+            lg:text-3xl
+            font-light
+            text-[#eae6dd]
+            mt-3"
+          >
+            Talk to us About Your Family
+          </p>
+
+        </div>
+
+
+        <form
+          class="bg-white
+          shadow-xl
+          rounded-2xl
+          p-5
+          sm:p-8
+          lg:p-10
+          max-w-2xl
+          mx-auto"
+        >
+
+          <div class="mb-5">
+
+            <label
+              for="fullName"
+              class="block
+              text-slate-800
+              font-medium
+              mb-2"
+            >
+              Full Name
+              <span
+                class="text-slate-400
+                text-sm
+                font-normal"
+              >
+                (required)
+              </span>
+            </label>
+
+            <input
+              id="fullName"
+              name="fullName"
+              type="text"
+              required
+              class="w-full
+              border
+              border-slate-300
+              rounded-lg
+              px-4
+              py-3
+              outline-none
+              transition
+              focus:border-[#34659b]
+              focus:ring-2
+              focus:ring-[#34659b]/20"
+            />
+
+          </div>
+
+
+          <div class="mb-5">
+
+            <label
+              for="email"
+              class="block
+              text-slate-800
+              font-medium
+              mb-2"
+            >
+              Email
+              <span
+                class="text-slate-400
+                text-sm
+                font-normal"
+              >
+                (required)
+              </span>
+            </label>
+
+            <input
+              id="email"
+              name="email"
+              type="email"
+              required
+              class="w-full
+              border
+              border-slate-300
+              rounded-lg
+              px-4
+              py-3
+              outline-none
+              transition
+              focus:border-[#34659b]
+              focus:ring-2
+              focus:ring-[#34659b]/20"
+            />
+
+          </div>
+
+
+          <div class="mb-6">
+
+            <label
+              for="message"
+              class="block
+              text-slate-800
+              font-medium
+              mb-2"
+            >
+              Message
+            </label>
+
+            <textarea
+              id="message"
+              name="message"
+              rows="5"
+              class="w-full
+              border
+              border-slate-300
+              rounded-lg
+              px-4
+              py-3
+              outline-none
+              resize-y
+              transition
+              focus:border-[#34659b]
+              focus:ring-2
+              focus:ring-[#34659b]/20"
+            ></textarea>
+
+          </div>
+
+
+          <button
+            type="submit"
+            class="w-full
+            sm:w-auto
+            bg-slate-900
+            hover:bg-slate-700
+            text-white
+            font-semibold
+            px-7
+            py-3.5
+            rounded-lg
+            transition"
+          >
+            Submit
+          </button>
+
+        </form>
+
+      </div>
+
+    </section>
+
+
+    <!-- =========================================================
+         FOOTER
+    ========================================================== -->
+
+    <footer
+      class="bg-white
+      border-t
+      border-slate-200"
+    >
+
+      <div
+        class="max-w-7xl
+        mx-auto
+        px-5
+        sm:px-8
+        lg:px-10
+        py-12
+        lg:py-14"
+      >
+
+        <div
+          class="grid
+          grid-cols-1
+          sm:grid-cols-2
+          lg:grid-cols-4
+          gap-10"
+        >
+
+          <!-- Footer About -->
+          <div>
+
+            <h3
+              class="text-lg
+              font-bold
+              text-slate-900"
+            >
+              Bayshore Homecare for Pediatric &amp;
+              Geriatric Patients
+            </h3>
+
+            <p
+              class="text-slate-600
+              mt-3
+              leading-relaxed"
+            >
+              An agency that cares for your family, like family.
+            </p>
+
+            <p
+              class="text-slate-700
+              mt-5
+              underline
+              decoration-[#88bcba]
+              decoration-2
+              underline-offset-4"
+            >
+              Licensed by the New York State Department of Health
+            </p>
+
+            <p
+              class="text-slate-500
+              mt-8
+              text-sm"
+            >
+              © 2024 Bayshore Home HealthCare,
+              All rights reserved.
+            </p>
+
+          </div>
+
+
+          <!-- Quick Links -->
+          <div>
+
+            <h4
+              class="text-lg
+              font-bold
+              text-slate-900
+              mb-4"
+            >
+              Quick Links
+            </h4>
+
+            <ul
+              class="space-y-3
+              text-slate-600"
+            >
+
+              <li>
+                <a
+                  href="#"
+                  class="hover:text-[#34659b] transition"
+                >
+                  Home
+                </a>
+              </li>
+
+              <li>
+                <a
+                  href="#about"
+                  class="hover:text-[#34659b] transition"
+                >
+                  About
+                </a>
+              </li>
+
+              <li>
+                <a
+                  href="#services"
+                  class="hover:text-[#34659b] transition"
+                >
+                  Our Services
+                </a>
+              </li>
+
+              <li>
+                <a
+                  href="#location"
+                  class="hover:text-[#34659b] transition"
+                >
+                  Location
+                </a>
+              </li>
+
+              <li>
+                <a
+                  href="#team"
+                  class="hover:text-[#34659b] transition"
+                >
+                  Join Our Team
+                </a>
+              </li>
+
+              <li>
+                <a
+                  href="#faq"
+                  class="hover:text-[#34659b] transition"
+                >
+                  FAQs
+                </a>
+              </li>
+
+              <li>
+                <a
+                  href="#contact"
+                  class="hover:text-[#34659b] transition"
+                >
+                  Contact Us
+                </a>
+              </li>
+
+            </ul>
+
+          </div>
+
+
+          <!-- Legal -->
+          <div>
+
+            <h4
+              class="text-lg
+              font-bold
+              text-slate-900
+              mb-4"
+            >
+              Legal
+            </h4>
+
+            <ul
+              class="space-y-3
+              text-slate-600"
+            >
+
+              <li>
+                <a
+                  href="#"
+                  class="hover:text-[#34659b] transition"
+                >
+                  Terms of Use
+                </a>
+              </li>
+
+              <li>
+                <a
+                  href="#"
+                  class="hover:text-[#34659b] transition"
+                >
+                  Privacy Policy
+                </a>
+              </li>
+
+            </ul>
+
+          </div>
+
+
+          <!-- Service Area -->
+          <div id="team">
+
+            <h4
+              class="text-lg
+              font-bold
+              text-slate-900
+              mb-4"
+            >
+              Service Area
+            </h4>
+
+            <p
+              class="font-semibold
+              text-slate-800"
+            >
+              Available 24 hours a day,
+              7 days a week
+            </p>
+
+            <div
+              class="w-12
+              h-[2px]
+              bg-[#34659b]
+              my-4"
+            ></div>
+
+            <p
+              id="faq"
+              class="text-slate-600
+              leading-relaxed"
+            >
+              We’re proud to serve Queens, Bronx,
+              Kings (Brooklyn), New York (Manhattan),
+              Richmond (Staten Island), Nassau,
+              and Suffolk Counties.
+            </p>
+
+          </div>
+
+        </div>
+
+
+        <!-- Bottom Footer -->
+        <div
+          class="border-t
+          border-slate-200
+          mt-10
+          pt-6
+          text-center
+          text-sm
+          text-slate-500"
+        >
+          Bayshore Home Healthcare —
+          Compassionate care where you call home.
+        </div>
+
+      </div>
+
+    </footer>
+
+  </main>
+
+
+  <!-- =========================================================
+       MOBILE MENU SCRIPT
+  ========================================================== -->
+
+  <script>
+    const menuBtn = document.getElementById("menu-btn");
+    const menu = document.getElementById("menu");
+    const openIcon = document.getElementById("menu-open-icon");
+    const closeIcon = document.getElementById("menu-close-icon");
+
+    menuBtn.addEventListener("click", () => {
+      const isOpen = !menu.classList.contains("hidden");
+
+      menu.classList.toggle("hidden");
+
+      openIcon.classList.toggle("hidden");
+      closeIcon.classList.toggle("hidden");
+
+      menuBtn.setAttribute(
+        "aria-expanded",
+        String(!isOpen)
+      );
+    });
+
+
+    document.querySelectorAll("#menu a").forEach((link) => {
+
+      link.addEventListener("click", () => {
+
+        menu.classList.add("hidden");
+
+        openIcon.classList.remove("hidden");
+        closeIcon.classList.add("hidden");
+
+        menuBtn.setAttribute(
+          "aria-expanded",
+          "false"
+        );
+
+      });
+
+    });
+  </script>
+
+</body>
+
+</html>

@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>about us</title>
+    <link rel="stylesheet" href="./output.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet">
+</head>
+
+<body w="full">
+
+
+  <header class="text-gray-600 body-font shadow-md">
+    <div class="container mx-auto flex flex-wrap px-5 py-3 flex-col md:flex-row justify-between items-center">
+
+      <div class="flex items-center justify-between w-full md:w-auto">
+        <a href="#" class="flex items-center title-font font-medium text-gray-900">
+          <img
+            src="https://images.squarespace-cdn.com/content/v1/6655fbb4d9e12c0208643fee/677f899b-5e9f-42af-92a9-a3a37e9edef4/Bayshore+Logo.png?format=1500w"
+            alt="Bayshore Home Healthcare" class="h-16 lg:w-auto md:w-44 object-contain" />
+        </a>
+
+
+        <button id="menu-btn" class="md:hidden text-gray-800 focus:outline-none">
+          <svg xmlns="http://www.w3.org/2000/svg" class="h-8 w-8" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16" />
+          </svg>
+        </button>
+      </div>
+
+
+      <div id="menu"
+        class="hidden md:flex md:items-center md:space-x-6 flex-col md:flex-row w-full md:w-auto mt-4 md:mt-0">
+        <nav class="flex flex-col md:flex-row md:space-x-4 text-base items-center ">
+          <a href="about.html" class="py-2 md:py-0  cursor-pointer hover:text-gray-900">About</a>
+          <a class="py-2 md:py-0 cursor-pointer hover:text-gray-900">Services</a>
+          <a class="py-2 md:py-0 cursor-pointer hover:text-gray-900">Location</a>
+          <a class="py-2 md:py-0 cursor-pointer hover:text-gray-900">Join Our Team</a>
+          <a class="py-2 md:py-0 cursor-pointer hover:text-gray-900">FAQ</a>
+        </nav>
+
+        <button
+          class="mt-4 md:mt-0 bg-[hsla(211.46,49.76%,40.59%,1)] text-white font-medium text-[18px] py-2.5 px-5 rounded-lg hover:bg-[#5a8ec3] transition cursor-pointer block mx-auto">
+          Click Me
+        </button>
+
+
+      </div>
+    </div>
+  </header>
+
+  <script>
+    const menuBtn = document.getElementById("menu-btn");
+    const menu = document.getElementById("menu");
+
+    menuBtn.addEventListener("click", () => {
+      menu.classList.toggle("hidden");
+    });
+  </script>
+
+
+
+
+   <section class="relative bg-cover bg-center"
+    style="background-image: url('https://images.squarespace-cdn.com/content/v1/6655fbb4d9e12c0208643fee/f75582a5-17af-4213-9500-79b8ab2bcd6b/pexels-kampus-7551644.jpg?format=2500w');">
+
+   
+    <div class="absolute inset-0 bg-[#34659b]/80"></div>
+
+    <div class="relative text-center py-14 px-4 ">
+        <h1 class="text-3xl sm:text-4xl md:text-6xl lg:text-7xl font-extrabold text-white leading-tight">
+            About Us
+        </h1>
+        <div class="w-24 sm:w-32 md:w-44 h-1 bg-[#edd286] mx-auto mt-5 rounded-full"></div>
+    </div>
+
+    <svg class="absolute bottom-0 left-0 w-full" viewBox="0 0 1440 80" xmlns="http://www.w3.org/2000/svg">
+        <path fill="#fff" d="M0,64L1440,16L1440,80L0,80Z"></path>
+    </svg>
+</section>
+
+
+
+
+<section class="py-16 px-6 md:px-20 bg-white">
+    <div class="flex flex-col md:flex-row items-start gap-10">
+
+        <!-- Image Section -->
+        <div class="flex flex-col gap-8 md:w-1/2">
+            <img src="https://images.squarespace-cdn.com/content/v1/6655fbb4d9e12c0208643fee/16d31d32-5f56-4a6e-8e08-bbadc4a0ff62/realistic-scene-with-health-worker-taking-care-elderly-patient+%281%29.jpg?format=1500w"
+                alt="Caring for loved ones" class="rounded-xl w-full object-cover shadow-md h-96 md:h-auto">
+            <img src="https://images.squarespace-cdn.com/content/v1/6655fbb4d9e12c0208643fee/56fb8d7a-e5df-44bc-bf99-73d93f177e79/realistic-scene-with-health-worker-taking-care-elderly-patient.jpg?format=750w"
+                alt="Always There for You" class="rounded-xl w-full object-cover shadow-md h-96 md:h-auto">
+        </div>
+
+        <!-- Text Section -->
+        <div class="flex flex-col gap-8 md:w-1/2">
+            <div>
+                <h2 class="text-2xl font-bold text-[#2d2d2a] mb-4 border-b-2 border-[#7bb5b2] inline-block pb-1">
+                    Caring for Your Loved Ones with Love!
+                </h2>
+                <p class="text-gray-700 leading-relaxed text-lg text-justify">
+                    Healing from surgery, recovering from illness, or dealing with the inevitable aging of a loved
+                    one can test any family. But significant life challenges shouldn’t change how you and they live. 
+                    We help your loved ones enjoy a high quality of life in their long-term homes. From short-term, in-home care 
+                    to round-the-clock nursing services, our client’s health, dignity, and happiness are always at the forefront 
+                    of any decisions we make.
+                </p>
+            </div>
+
+            <div>
+                <h2 class="text-2xl font-bold text-[#2d2d2a] mb-4 border-b-2 border-[#7bb5b2] inline-block pb-1">
+                    Always There for You:
+                </h2>
+                <p class="text-gray-700 leading-relaxed text-lg text-justify">
+                    For geriatric and pediatric clients, Bayshore Home Healthcare has been providing quality care to
+                    the Long Island and Queens community since 2015. We are proud of the reputation we have built over 
+                    the years, and our management team is well-equipped to meet the demands of dynamic environments.
+                </p>
+            </div>
+
+            <div>
+                <h2 class="text-2xl font-bold text-[#2d2d2a] mb-4 border-b-2 border-[#7bb5b2] inline-block pb-1">
+                    Advanced and Compassionate Care
+                </h2>
+                <p class="text-gray-700 leading-relaxed text-lg text-justify">
+                    Here at Bayshore, we blend advanced clinical expertise with a compassionate approach. We balance a 
+                    highly supportive atmosphere for our staff while ensuring our clients can easily connect with us 
+                    whenever they need assistance. Our mission has been and always will be to provide the highest quality 
+                    of care and service at an affordable price.
+                </p>
+            </div>
+        </div>
+
+    </div>
+</section>
+
+
+
+
+    <section class="">
+    <div class="bg-[#34659b] py-10 md:py-14 lg:py-22 px-4 md:px-8 lg:px-12">
+        <h1 class="text-3xl md:text-4xl lg:text-5xl font-bold text-center text-[#edd286]">Our Mission</h1>
+        <p class="text-white text-base md:text-lg lg:text-xl font-light text-center mt-6 md:mt-8">
+            We strive to provide the highest quality healthcare service to our clients.
+        </p>
+        <p class="text-white text-base md:text-lg lg:text-xl font-light text-center mt-4">
+            Our number one priority is our client's needs. Service Excellence is
+        </p>
+        <p class="text-white text-base md:text-lg lg:text-xl font-light text-center mt-2">
+            our ultimate goal
+        </p>
+    </div>
+</section>
+
+
+
+ 
+ <section class="bg-white py-12 px-6 sm:px-10 lg:px-20">
+  <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-10 text-[#2d2d2a]">
+
+    <!-- Column 1: Company Info -->
+    <div>
+      <h1 class="text-lg sm:text-xl font-bold">
+        Bayshore Homecare for Pediatric &amp; <br class="hidden sm:block"> Geriatric Patients:
+      </h1>
+      <p class="text-lg mt-2">
+        An agency that cares for your family, <br class="hidden sm:block"> like family.
+      </p>
+      <p class="text-lg mt-2 underline decoration-[#88bcba] decoration-2 underline-offset-2">
+        Licensed by the New York State
+      </p>
+      <p class="text-lg mt-2 underline decoration-[#88bcba] decoration-2 underline-offset-2">
+        Department of Health
+      </p>
+
+      <div class="mt-10">
+        <p class="text-base font-bold">© 2024 Bayshore Home HealthCare, All rights</p>
+        <p class="text-base font-bold">reserved.</p>
+      </div>
+    </div>
+
+    <!-- Column 2: Navigation Links -->
+    <div>
+      <ul class="space-y-2 sm:space-y-3 font-bold text-lg underline decoration-[#2d2d2a] decoration-1 underline-offset-4">
+        <li><span class="cursor-pointer hover:text-[#34659b]">Home</span></li>
+        <li><span class="cursor-pointer hover:text-[#34659b]">About</span></li>
+        <li><span class="cursor-pointer hover:text-[#34659b]">Our Services</span></li>
+        <li><span class="cursor-pointer hover:text-[#34659b]">Location</span></li>
+        <li><span class="cursor-pointer hover:text-[#34659b]">Join Our Team</span></li>
+        <li><span class="cursor-pointer hover:text-[#34659b]">FAQ's</span></li>
+        <li><span class="cursor-pointer hover:text-[#34659b]">Contact Us</span></li>
+      </ul>
+    </div>
+
+    <!-- Column 3: Policies -->
+    <div>
+      <ul class="space-y-4 font-bold text-lg underline decoration-[#2d2d2a] decoration-1 underline-offset-4">
+        <li><span class="cursor-pointer hover:text-[#34659b]">Terms of Use</span></li>
+        <li><span class="cursor-pointer hover:text-[#34659b]">Privacy Policy</span></li>
+      </ul>
+    </div>
+
+    <!-- Column 4: Availability -->
+    <div>
+      <p class="text-lg font-bold mb-2">
+        Available 24 hours a day, 7 days a week<br>---
+      </p>
+      <p class="text-lg font-light leading-relaxed">
+        We’re proud to serve Queens, Bronx, <br class="hidden sm:block">
+        Kings (Brooklyn), New York (Manhattan), <br class="hidden sm:block">
+        Richmond (Staten Island), Nassau, and <br class="hidden sm:block">
+        Suffolk Counties.
+      </p>
+    </div>
+
+  </div>
+</section>
+
+
+</body>
+
+</html>
